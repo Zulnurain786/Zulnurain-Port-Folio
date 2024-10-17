@@ -1,5 +1,3 @@
-import { Html } from 'next/document';
-
 // import nodemailer from 'nodemailer';
 const nodemailer = require('nodemailer');
 

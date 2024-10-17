@@ -29,7 +29,7 @@ const Home = () => {
             exit='hidden'
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-0 xl:mb-10"
             >
-            I’m a Full-Stack Developer with a passion for transforming innovative ideas into seamless digital solutions. With a strong foundation in front-end and back-end development,
+            I&#39;m a Full-Stack Developer with a passion for transforming innovative ideas into seamless digital solutions. With a strong foundation in front-end and back-end development,
             I specialize in building responsive websites and dynamic web applications.
             <br/>
             Explore my portfolio to see how I can turn your 
