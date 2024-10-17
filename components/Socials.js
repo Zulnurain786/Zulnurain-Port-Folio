@@ -5,16 +5,16 @@ import {RiGithubLine,RiInstagramLine,RiBehanceLine,RiFacebookBoxLine,RiDribbbleL
 const Socials = () => {
   return (
     <div className="flex items-center gap-x-5 text-lg">
-      <Link href={'www.linkedin.com/in/zulnurain-arshad-a227b2302'} className="hover:text-accent transition-all duration-300" >
+      <Link href='www.linkedin.com/in/zulnurain-arshad-a227b2302' className="hover:text-accent transition-all duration-300" >
         <RiLinkedinBoxLine />
       </Link>
-      <Link href={'https://github.com/Zulnurain786'} className="hover:text-accent transition-all duration-300" >
+      <Link href='https://github.com/Zulnurain786' className="hover:text-accent transition-all duration-300" >
         <RiGithubLine />
       </Link>
-      <Link href={'https://www.instagram.com/zunu_rathore/'} className="hover:text-accent transition-all duration-300" >
+      <Link href='https://www.instagram.com/zunu_rathore/' className="hover:text-accent transition-all duration-300" >
         <RiInstagramLine />
       </Link>
-      <Link href={'https://www.facebook.com/zulnurain.arshad/'} className="hover:text-accent transition-all duration-300" >
+      <Link href='https://www.facebook.com/zulnurain.arshad/' className="hover:text-accent transition-all duration-300" >
         <RiFacebookBoxLine />
       </Link>
       <Link href={'/'} className="hover:text-accent transition-all duration-300" >
