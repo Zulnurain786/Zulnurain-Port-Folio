@@ -17,7 +17,8 @@ const sendEmail = async (e) => {
   const data = Object.fromEntries(formData.entries());
   // console.log(data);
 
-  const res =  await fetch(`${process.env.NEXT_PUBLIC_HOST}/api/mail`, {
+//  const res =  await fetch(`${process.env.NEXT_PUBLIC_HOST}/api/mail`, {
+  const res =  await fetch("https://zulnurain-port-folio.vercel.app//api/mail", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
