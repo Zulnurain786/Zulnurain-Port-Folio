@@ -6,6 +6,9 @@ const nodemailer = require('nodemailer');
 
 const sendWelcomeEmail = async (req, res) => {
     try {
+        const host = process.env.NEXT_PUBLIC_HOST;
+  
+         console.log(host);
         if (req.method == "POST") {
             const {username, useremail, usersubject, usermessage } = req.body;
             // console.log(useremail);
