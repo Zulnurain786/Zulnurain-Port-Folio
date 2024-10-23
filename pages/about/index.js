@@ -103,7 +103,7 @@ const aboutData = [
 
 const About = () => {
 const [index,setIndex] = useState(0);
-console.log(index);
+// console.log(index);
   
   return (
     <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
@@ -124,7 +124,7 @@ console.log(index);
            initial='hidden'
            animate='show'
            exit='hidden'
-           className='h2'
+           className='text-3xl xl:text-4xl 2xl:text-5xl mb-10'
           >
             Cpativiting <span className='text-accent'>stories</span> birth magnificient designs.
           </motion.h2>
@@ -182,7 +182,7 @@ console.log(index);
          initial='hidden'
          animate='show'
          exit='hidden'
-         className='flex flex-col w-full xl:max-w-[48%] h-[480px]'
+         className='mt-20 flex flex-col w-full xl:max-w-[48%] h-[480px]'
         >
           <div className='flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4'>
             {
