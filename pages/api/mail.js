@@ -2,8 +2,6 @@
 const nodemailer = require('nodemailer');
 
 
-
-
 const sendWelcomeEmail = async (req, res) => {
     try {
         const host = process.env.NEXT_PUBLIC_HOST;

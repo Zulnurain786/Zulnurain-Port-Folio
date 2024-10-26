@@ -15,7 +15,8 @@ const sendEmail = async (e) => {
 
   const formData = new FormData(formRef.current);
   const data = Object.fromEntries(formData.entries());
-  // console.log(data);
+  console.log(data);
+  // return;
 
 //  const res =  await fetch(`${process.env.NEXT_PUBLIC_HOST}/api/mail`, {
   const res =  await fetch("https://zulnurain-port-folio.vercel.app//api/mail", {
