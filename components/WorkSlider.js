@@ -21,7 +21,7 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb4.jpg',
-          link: '',
+          link: 'https://www.tour-tips.com/protected/set_tournament_history.php',
         },
       ],
     },
@@ -30,6 +30,7 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb4.jpg',
+          link:'https://www.qr-l24.com/index.php'
         },
         {
           title: 'title',
