@@ -35,10 +35,12 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb1.jpg',
+          link:'https://getsomesales.com/',
         },
         {
           title: 'title',
           path: '/thumb2.jpg',
+          link:'https://app.wohnungsmappe.de/login',
         },
         {
           title: 'title',
