@@ -66,7 +66,7 @@ const Home = () => {
           className='w-full h-full max-w-[737px] max-h-[678px] absolute
                     -bottom-330 lg:bottom-0 lg:right-[8%]'
         >
-          <Avatar />
+          {/* <Avatar /> */}
         </motion.div>
       </div>
 
