@@ -114,7 +114,7 @@ const [index,setIndex] = useState(0);
       animate='show'
       exit='hidden'
       className='hidden xl:flex absolute bottom-0 -left-[370px]'>
-        <Avatar />
+        {/* <Avatar /> */}
       </motion.div>
       <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6'>
         <div className='xl:max-h-[480px] flex-1 flex flex-col justify-center'>
