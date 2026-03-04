@@ -86,6 +86,10 @@ const aboutData = [
     title: 'credentials',
     info: [
       {
+        title: 'Master - EPITA, lécole des ingénieurs en intelligence informatique',
+        stage: '2025',
+      },
+      {
         title: 'Bachelor of Computer Science - GMIS',
         stage: '2024',
       },
